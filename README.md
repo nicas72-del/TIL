@@ -37,6 +37,8 @@
 <details>
   <summary style="font-size: 16px;"><strong id="ai-agent">AI Agent (전체 보기)</strong></summary>
 
+- [2026-03-11-LangChain-구성-요소-및-LCEL-활용](ai-agent/2026-03-11-LangChain-구성-요소-및-LCEL-활용.md)
+
 - [2026-01-30-몰트봇-품절-현상](ai-agent/2026-01-30-몰트봇-품절-현상.md)
 
 </details>
