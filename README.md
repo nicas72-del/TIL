@@ -31,6 +31,8 @@
 <details>
   <summary style="font-size: 16px;"><strong id="python">Python (전체 보기)</strong></summary>
 
+- [2026-04-06-파이썬-리스트-컴프리헨션과-필터-비교](python/2026-04-06-파이썬-리스트-컴프리헨션과-필터-비교.md)
+
 - [2026-01-30-파이썬-리스트-컴프리헨션-과-조건문](python/2026-01-30-파이썬-리스트-컴프리헨션-과-조건문.md)
 
 </details>
