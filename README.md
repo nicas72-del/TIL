@@ -14,6 +14,8 @@
 <details>
   <summary style="font-size: 16px;"><strong id="n8n">n8n (전체 보기)</strong></summary>
 
+- [2026-04-06-n8n-디스코드-연동-성공](n8n/2026-04-06-n8n-디스코드-연동-성공)
+
 - [2026-03-17-디스코드-HTTP-Request-폴링-방법](n8n/2026-03-17-디스코드-HTTP-Request-폴링-방법.md)
 
 - [2026-03-01-n8n-보안-강화](n8n/2026-03-01-n8n-보안-강화.md)
