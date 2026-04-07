@@ -1,0 +1,43 @@
+### Context
+n8n을 사용하여 Discord와의 연동을 시도 중이었습니다. 다양한 방법이 있지만, 주로 Discord Bot을 활용해 쉽게 자동화가 가능한 것이 특징입니다. 이번에 이 작업이 성공하여 후츠릿님의 도움을 받아 문제를 해결했습니다.
+
+### Core
+n8n과 Discord를 연동하기 위해 다음 설정을 사용했습니다.
+
+```json
+{
+  "nodes": [
+    {
+      "name": "Discord Trigger",
+      "parameters": {
+        "webhook": "your-discord-webhook-url",
+        "events": ["message"]
+      }
+    },
+    {
+      "name": "Function Node",
+      "parameters": {
+        "functionCode": "// Your custom logic here"
+      }
+    }
+  ],
+  "connections": {
+    "Discord Trigger": {
+      "main": [
+        [
+          {
+            "node": "Function Node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
+```
+
+### Insight
+Discord와의 연동은 생각보다 간단했으며, 주로 웹훅을 통해 데이터를 받아왔습니다. n8n의 유연한 워크플로우 설계 덕분에 커스터마이징이 매우 용이했습니다. Discord의 다양한 이벤트를 활용하여 자동화를 확장할 예정입니다.
+
+**출처:** [n8n Documentation](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.discordnode/)
